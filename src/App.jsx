@@ -12,9 +12,7 @@ const App = () => {
   return (
     <div className="container">
       <Profile {...userData} />
-
       <FriendList friends={friends} />
-
       <TransactionHistory items={transactions} />
     </div>
   );
