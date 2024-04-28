@@ -5,26 +5,26 @@
   border-collapse: collapse;
 }
 
-.transactionTable > thead > tr > th {
+.transactionTableHead > tr > th {
   background-color: #2a2a2a;
   color: white;
   border: 1px solid black;
-  text-align: left;
-  padding: 4px 8px;
+  text-align: center;
   font-size: 18px;
+  padding: 4px;
 }
 
 .transactionTable > tbody > tr {
   background-color: #ffffff;
 }
 
-.transactionTable > tbody > tr:nth-child(odd) {
+.transactionTableBody tr:nth-child(odd) {
   background-color: #d3d3d3;
 }
 
-.transactionTable > tbody > tr > td {
+.transactionTableBody > tr > td {
   border: 1px solid black;
-  text-align: left;
-  padding: 4px 8px;
+  text-align: center;
   font-weight: 500;
+  padding: 4px;
 }
