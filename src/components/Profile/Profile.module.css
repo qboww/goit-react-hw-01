@@ -12,7 +12,7 @@
   padding: 16px 32px;
 }
 
-.userCardImage {
+.userCardBody > img {
   width: 150px;
   background-color: #2a2a2a;
   border-radius: 50%;
@@ -51,7 +51,7 @@
   border-bottom-left-radius: 8px;
 }
 
-.userCardStatsItem {
+.userCardStats > li {
   border-right: 2px solid #808080;
   text-align: center;
   padding: 8px;
@@ -60,7 +60,7 @@
   width: calc(100% / 3);
 }
 
-.userCardStatsItem:last-child {
+.userCardStats > li:last-child {
   border-right: none;
 }
 
