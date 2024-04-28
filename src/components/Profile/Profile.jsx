@@ -1,12 +1,12 @@
 import css from "./Profile.module.css";
 
-const UserCard = ({ name, tag, location, image, stats }) => {
+const UserCard = ({ name, tag, location, avatar, stats }) => {
   const { followers, views, likes } = stats;
 
   return (
     <div className={css.userCard}>
       <div className={css.userCardBody}>
-        <img src={image} alt={name} className={css.userCardImage} />
+        <img src={avatar} alt={name} className={css.userCardImage} />
         <p className={css.userName}>{name}</p>
         <p className={css.userTag}>@{tag}</p>
         <p className={css.userLocation}>{location}</p>
