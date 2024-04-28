@@ -3,6 +3,7 @@
   color: black;
   border: 1px solid black;
   border-collapse: collapse;
+  max-width: 700px;
 }
 
 .transactionTableHead > tr > th {
@@ -10,7 +11,7 @@
   color: white;
   border: 1px solid black;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   padding: 4px;
 }
 
@@ -24,7 +25,7 @@
 
 .transactionTableBody > tr > td {
   border: 1px solid black;
-  text-align: center;
+  text-align: start;
   font-weight: 500;
-  padding: 4px;
+  padding: 4px 8px;
 }
